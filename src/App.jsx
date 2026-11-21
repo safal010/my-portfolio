@@ -13,6 +13,10 @@ import Reveal from "./components/reveal.jsx";
 function App() {
   return (
     <>
+      <div className="opening-screen" aria-hidden="true">
+        <span className="opening-screen__name">Safal KC</span>
+      </div>
+
       <Navbar />
 
       <Hero />
