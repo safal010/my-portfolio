@@ -19,7 +19,7 @@ function Contact() {
       name: "LinkedIn",
       detail: "Connect professionally",
       icon: <FaLinkedin />,
-      link: "https://www.linkedin.com/in/safal-kc-7ba497321/",
+      link: "https://www.linkedin.com/in/safal-k-c-57278b451/",
     },
   ];
 
