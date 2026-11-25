@@ -33,7 +33,8 @@ function Projects() {
         "Open-Meteo API",
         "Machine Learning",
       ],
-      github: "https://github.com/safal010/nepal-heavy-rainfall-prediction",
+      github:
+        "https://github.com/safal010/nepal-heavy-rainfall-prediction",
       demo:
         "https://nepal-heavy-rainfall-prediction-5tpm8lakdcsdqmlh469zpn.streamlit.app/",
       image: "/rainfall-prediction.png",
@@ -49,6 +50,8 @@ function Projects() {
         "Voice AI",
         "Real-Time Communication",
       ],
+      github:
+        "https://github.com/safal010/voice-ai-project",
       demo: "https://voice-ai-project-ten.vercel.app/",
       image: "/voice-ai.png",
     },
