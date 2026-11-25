@@ -1,3 +1,4 @@
+
 import { FaGithub, FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 function Projects() {
@@ -36,6 +37,20 @@ function Projects() {
       demo:
         "https://nepal-heavy-rainfall-prediction-5tpm8lakdcsdqmlh469zpn.streamlit.app/",
       image: "/rainfall-prediction.png",
+    },
+    {
+      title: "AI Voice Chat Application",
+      category: "ARTIFICIAL INTELLIGENCE • VOICE AI",
+      description:
+        "An AI-powered voice companion named Asha that helps users practice English through real-time voice conversations. It features voice interaction, live transcripts, and saved conversation history.",
+      technologies: [
+        "React",
+        "AI",
+        "Voice AI",
+        "Real-Time Communication",
+      ],
+      demo: "https://voice-ai-project-ten.vercel.app/",
+      image: "/voice-ai.png",
     },
   ];
 
@@ -79,16 +94,18 @@ function Projects() {
               </div>
 
               <div className="project-links">
-                <a
-                  className="project-link"
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub />
-                  View Source Code
-                  <FaArrowUpRightFromSquare />
-                </a>
+                {project.github && (
+                  <a
+                    className="project-link"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
+                    View Source Code
+                    <FaArrowUpRightFromSquare />
+                  </a>
+                )}
 
                 {project.demo && (
                   <a
