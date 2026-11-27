@@ -1,17 +1,27 @@
-
 import {
   FaPython,
   FaReact,
   FaJs,
   FaGitAlt,
   FaDatabase,
+  FaDocker,
+  FaMicrophone,
+  FaRobot,
+  FaBrain,
+  FaServer,
 } from "react-icons/fa";
 
 import {
+  SiTypescript,
+  SiNextdotjs,
   SiFastapi,
+  SiStreamlit,
   SiPostgresql,
   SiSqlite,
   SiGoogle,
+  SiScikitlearn,
+  SiPandas,
+  SiVercel,
 } from "react-icons/si";
 
 function Skills() {
@@ -20,32 +30,42 @@ function Skills() {
       title: "Programming",
       skills: [
         { name: "Python", icon: <FaPython /> },
+        { name: "TypeScript", icon: <SiTypescript /> },
         { name: "JavaScript", icon: <FaJs /> },
         { name: "SQL", icon: <FaDatabase /> },
       ],
     },
     {
-      title: "Web Development",
+      title: "Web & Real-Time",
       skills: [
+        { name: "Next.js", icon: <SiNextdotjs /> },
         { name: "React", icon: <FaReact /> },
         { name: "FastAPI", icon: <SiFastapi /> },
-        { name: "REST API", icon: <FaDatabase /> },
+        { name: "REST API", icon: <FaServer /> },
+        { name: "LiveKit", icon: <FaMicrophone /> },
+        { name: "Streamlit", icon: <SiStreamlit /> },
       ],
     },
     {
-      title: "Database & Tools",
+      title: "AI & Machine Learning",
+      skills: [
+        { name: "Gemini", icon: <SiGoogle /> },
+        { name: "RAG", icon: <FaDatabase /> },
+        { name: "FAISS", icon: <FaDatabase /> },
+        { name: "LiveKit Agents", icon: <FaRobot /> },
+        { name: "Scikit-learn", icon: <SiScikitlearn /> },
+        { name: "Pandas", icon: <SiPandas /> },
+        { name: "Machine Learning", icon: <FaBrain /> },
+      ],
+    },
+    {
+      title: "Database & DevOps",
       skills: [
         { name: "PostgreSQL", icon: <SiPostgresql /> },
         { name: "SQLite", icon: <SiSqlite /> },
+        { name: "Docker", icon: <FaDocker /> },
         { name: "Git & GitHub", icon: <FaGitAlt /> },
-      ],
-    },
-    {
-      title: "AI & Retrieval",
-      skills: [
-        { name: "RAG", icon: <FaDatabase /> },
-        { name: "FAISS", icon: <FaDatabase /> },
-        { name: "Gemini", icon: <SiGoogle /> },
+        { name: "Vercel", icon: <SiVercel /> },
       ],
     },
   ];
